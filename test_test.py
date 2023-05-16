@@ -34,7 +34,6 @@ class TestTest():
       return set(wh_now).difference(set(wh_then)).pop()
   
   def test_test(self):
-    file_path = 'C:/Users/Jenny/OneDrive/桌面/seleniumtest/config.csv'
     self.driver.get("https://www.104.com.tw/jobs/main/")
     self.driver.set_window_size(1296, 688)
     self.driver.find_element(By.LINK_TEXT, "登入").click()
